@@ -1,0 +1,206 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #1a082e, #2b0b45);
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  background: linear-gradient(to right, #ff4ecd, #4c9cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #bbb;
+  margin-top: 0.5rem;
+}
+
+/* Core Concepts */
+#core-concepts {
+  margin-top: 3rem;
+}
+
+#core-concepts h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+#core-concepts ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* Card CoreConcept */
+#core-concepts li {
+  list-style: none;
+  background: #291544;
+  border-radius: 16px;
+  padding: 1.5rem;
+  max-width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#core-concepts li:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+#core-concepts img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+#core-concepts h3 {
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#core-concepts p {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+#examples {
+  margin-top: 4rem;
+}
+
+#examples h2 {
+  margin-bottom: 1rem;
+}
+
+#examples menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  margin: 1rem 0 2rem 0;
+  list-style: none;
+}
+
+#examples button {
+  background: #4c2a69;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#examples button:hover {
+  background: #6a3d94;
+}
+
+.tab-content {
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+#examples {
+  margin-top: 4rem;
+  text-align: left;
+}
+
+#examples h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+#examples menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  margin: 1rem 0 2rem 0;
+  list-style: none;
+}
+
+#examples button {
+  background: #4c2a69;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#examples button:hover {
+  background: #6a3d94;
+  transform: translateY(-2px);
+}
+
+#examples button.active {
+  background: #9b4dff;
+  border: 2px solid #fff;
+}
+
+#tab-content {
+  background: #2e1848;        
+  border-radius: 12px;       
+  padding: 2rem;
+  color: #ddd;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); 
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid #3a1f5a;  
+}
+
+#tab-content h3 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#tab-content p {
+  margin: 1rem 0;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+#tab-content pre {
+  background: #1a0e2d;
+  color: #9effff;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+  border: 1px solid #333;
+}
+
+
